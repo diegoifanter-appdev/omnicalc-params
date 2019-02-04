@@ -1,0 +1,21 @@
+<h1>Word Count Results</h1>
+
+<dl>
+  <dt>Text</dt>
+  <dd><%= @text %></dd>
+  
+  <dt>Word Count</dt>
+  <dd><%= @word_count %></dd>
+  
+  <dt>Character Count (with spaces)</dt>
+  <dd><%= @char_count_w_spaces %></dd>
+  
+  <dt>Character Count (without spaces)</dt>
+  <dd><%= @char_count_wo_spaces %></dd>
+  
+  <dt>Ocurrences of <code><%= @special_word%></code></dt>
+  <dd><%= @special_word_count %></dd>
+  
+</dl>
+
+<a href="/word_count/new">Process more text</a>
